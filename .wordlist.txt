@@ -170,3 +170,6 @@ Kontent
 ai
 kontent
 README
+github
+https
+Github
