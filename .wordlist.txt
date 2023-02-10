@@ -4,3 +4,5 @@ http
 kontent.ai
 github
 .net
+ai
+readme
