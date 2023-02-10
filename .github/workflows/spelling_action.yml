@@ -15,6 +15,6 @@ jobs:
         task_name: Markdown
         output_file: spellcheck-output.txt
     - uses: actions/upload-artifact@v3
-        with:
-          name: Spellcheck artifact
-          path: spellcheck-output.txt
+      with:
+        name: Spellcheck artifact
+        path: spellcheck-output.txt
