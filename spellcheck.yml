@@ -15,5 +15,4 @@ matrix:
       - pre
   sources:
   - '**/*.md'
-  output_file: spellcheck-output.txt
   default_encoding: utf-8
