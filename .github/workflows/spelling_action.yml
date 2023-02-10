@@ -8,7 +8,6 @@ jobs:
     steps:
     # The checkout step
     - uses: actions/checkout@master
-    - run: mkdir -p artifacts
     - uses: rojopolis/spellcheck-github-actions@0.29.0
       name: Spellcheck
       with:
@@ -17,5 +16,5 @@ jobs:
         output_file: spellcheck-output.txt
     - uses: actions/upload-artifact@v3
         with:
-          name: Spellcheck_Artifact
+          name: Spellcheck artifact
           path: spellcheck-output.txt
